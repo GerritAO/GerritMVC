@@ -5,7 +5,7 @@
     }
 
     public function index(){
-      echo " it works";
+      echo "i can see this";
     }
 
     public function about($id){
