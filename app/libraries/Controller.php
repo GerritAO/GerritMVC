@@ -16,9 +16,9 @@
         //load view
         public function view($view, $data = []){
             //check for view
-            if(file_exists('../app/views'. $view . '.php')){
-              require_once '../app/views'. $view . '.php';
-            }else {
+            if(file_exists('../app/views/'. $view . '.php')){
+              require_once '../app/views/'. $view . '.php';
+            } else {
                 die('view does not exist');
             }
         }

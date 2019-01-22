@@ -5,7 +5,10 @@
     }
 
     public function index(){
-      $this->view('pages/home');
+      $data =  [
+        'title'=>'Welcome Gerrit'
+      ];
+      $this->view('pages/home',$data);
     }
 
     public function about(){
