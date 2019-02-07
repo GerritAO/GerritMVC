@@ -1,3 +1,2 @@
 # GerritMVC
-learn to create a mvc
-with this
+build websites with this mvc
